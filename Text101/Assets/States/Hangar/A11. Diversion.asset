@@ -10,12 +10,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c720ebf8755dfb4e8ab6ab4d7510731, type: 3}
-  m_Name: A11
+  m_Name: A11. Diversion
   m_EditorClassIdentifier: 
-  storyText: "In front of you is the expanse of the airship hangar.\r\n\r\nFesters
+  storyText: 'In front of you is the expanse of the airship hangar.
+
+    
+
+    Festers
     are running everywhere and mostly yelling at one another. Some men are clambering
     aboard airships, others are attempting to put out fires that have started from
-    the explosion.\r\n\r\nWho were those men? Friend or foe? That will have to wait.
-    Time to get out of here.\r\n\r\nWhat now?\r\n1. Mad sprint to the nearest airship.\r\n2.
-    Quick scrounge for weapons, then mad sprint to the nearest airship."
-  nextStates: []
+    the explosion.
+
+    
+
+    Who were those men? Friend or foe? That will have
+    to wait. Time to get out of here.
+
+    
+
+    What now?
+
+    1. Mad sprint
+    to the nearest airship.
+
+    2. Quick scrounge for weapons, then mad sprint
+    to the nearest airship.'
+  nextStates:
+  - {fileID: 11400000, guid: d728cc2243fd3234abff0ea159411db4, type: 2}
+  - {fileID: 11400000, guid: a0fef6afb0f669845b201799f35f78de, type: 2}

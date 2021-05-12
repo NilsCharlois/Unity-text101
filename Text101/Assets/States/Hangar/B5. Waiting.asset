@@ -10,10 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c720ebf8755dfb4e8ab6ab4d7510731, type: 3}
-  m_Name: B2
+  m_Name: B5. Waiting
   m_EditorClassIdentifier: 
-  storyText: "You stand up, a little groggily, back up to the far edge of the wall
-    and make an almighty sprint towards the door.\r\n\r\nAnd, of course, its booby
-    trapped. Maybe next time you want to ask what the red wires are wrapped around
-    the door.\r\n\r\n1. Continue..."
-  nextStates: []
+  storyText: 'Not much happens, what would you like to do?
+
+    
+
+    1. Get running.'
+  nextStates:
+  - {fileID: 11400000, guid: 7ee47105d2503334a80b1fc1e93d8722, type: 2}
